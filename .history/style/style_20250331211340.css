@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+	font-family: League Spartan;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html body {
+	background-color: hsl(180, 52%, 96%);
+}
+
+header img {
+	width: 100%;
+	background-color: hsl(180, 29%, 50%);
+	margin-bottom: 50px;
+}
+
+.content-carrier .content {
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 65%;
+	margin: auto;
+	padding: 15px 5px 15px 5px;
+	gap: 90px;
+}
+
+.content-carrier .content .txt-1 {
+	display: flex;
+}
+
+.content-carrier .content .txt-3 {
+	display: flex;
+}
+
+.content-carrier .content .ctn {
+	display: flex;
+	align-items: center;
+}
+
+.content .ctn img {
+	margin-right: 25px;
+}
+
+.content .btn button {
+	background-color: #ebf4f3;
+	border: none;
+	padding: 10px 5px 10px 5px;
+	border-radius: 5px;
+	color: #649d97;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.content .txt-1 h4 {
+	color: #649d97;
+}
+
+.content .txt-1 .btn-1 button {
+	background-color: #649d97;
+}
+
+.content .txt-1 .btn-2 button {
+	background-color: #2c3b38;
+}
+
+.content .txt-1 button {
+	font-size: 13px;
+	font-weight: 500;
+	color: #ffffff;
+	border: none;
+	padding: 2px 5px 2px 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.content .txt-2 h2 {
+	margin: 8px 0 8px 0;
+	font-size: 22px;
+}
+
+.content .txt-3 p {
+	margin-right: 10px;
+}
